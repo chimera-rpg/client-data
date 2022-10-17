@@ -1,0 +1,310 @@
+# Servers styles
+Servers:
+  List: |
+    W 100%
+    H 100%
+  ChooseServer: |
+    PaddingLeft 5%
+    PaddingRight 5%
+    PaddingTop 5%
+    PaddingBottom 5%
+    Origin CenterX CenterY
+    ContentOrigin CenterX CenterY
+    X 50%
+    Y 10%
+  HostInput: |
+    Origin Bottom
+    X 0%
+    Y 30
+    Margin 5%
+    W 60%
+  ConnectButton: |
+    Origin Bottom
+    X 65%
+    Y 30
+    Margin 5%
+    W 25%
+  OutputText: |
+    Origin CenterX Bottom
+    ContentOrigin CenterX CenterY
+    ForegroundColor 255 255 255 255
+    BackgroundColor 0 0 0 128
+    Y 0
+    X 50%
+    W 100%
+    Padding 5
+  SplashImage: |
+    X 50%
+    Y 50%
+    W 48
+    H 48
+    Origin CenterX CenterY
+# Login styles
+Login:
+  Container: |
+    W 100%
+    H 100%
+    BackgroundColor 139 186 139 255
+  UsernameInput: |
+    Origin CenterX CenterY
+    X 50%
+    Y 10%
+    W 100%
+    MaxW 200
+  PasswordInput: |
+    Origin CenterX CenterY
+    X 50%
+    Y 40%
+    H 20%
+    W 100%
+    MaxW 200
+    MaxH 30
+    MinH 25
+    ForegroundColor 255 0 0 255
+  RememberButton: |
+    Origin CenterX CenterY
+    X 70%
+    Y 40%
+    H 20%
+    W 100%
+    MaxW 200
+    MaxH 30
+    MinH 25
+  DisconnectButton: |
+    Origin Bottom
+    Y 30
+    Margin 5%
+    W 40%
+    MinW 100
+  RegisterButton: |
+    Origin Bottom
+    X 50%
+    Y 30
+    Margin 5%
+    W 40%
+    MinW 100
+  LoginButton: |
+    Origin CenterX CenterY
+    X 50%
+    Y 60%
+    W 40%
+  OutputText: |
+    Origin CenterX Bottom
+    ContentOrigin CenterX CenterY
+    ForegroundColor 255 255 255 255
+    BackgroundColor 0 0 0 128
+    Y 0
+    X 50%
+    W 100%
+# Register styles
+Register:
+  Container: |
+    W 100%
+    H 100%
+    BackgroundColor 139 186 139 255
+  InputsContainer: |
+    Origin CenterX CenterY
+    X 50%
+    Y 50%
+    MinW 100
+    W 100%
+    MinH 300
+  UsernameInput: |
+    Origin CenterX
+    X 50%
+    Y 0
+    W 100%
+    MaxW 200
+    MaxH 30
+    MinH 25
+  UsernameResult: |
+    Origin CenterX
+    ContentOrigin CenterX CenterY
+    X 50%
+    Y 40
+    H 20
+    W 100%
+    OutlineColor 0 0 0 200
+  PasswordInput: |
+    Origin CenterX
+    X 50%
+    Y 70
+    W 100%
+    MaxW 200
+    MaxH 30
+    MinH 25
+  PasswordConfirmInput: |
+    Origin CenterX
+    X 50%
+    Y 120
+    W 100%
+    MaxW 200
+    MaxH 30
+    MinH 25
+  PasswordResult: |
+    Origin CenterX
+    ContentOrigin CenterX CenterY
+    X 50%
+    Y 160
+    H 20
+    W 100%
+    OutlineColor 0 0 0 200
+  EmailInput: |
+    Origin CenterX
+    X 50%
+    Y 190
+    W 100%
+    MaxW 200
+    MaxH 30
+    MinH 25
+  EmailResult: |
+    Origin CenterX
+    ContentOrigin CenterX CenterY
+    X 50%
+    Y 230
+    H 20
+    W 100%
+    OutlineColor 0 0 0 200
+  BackButton: |
+    Origin Bottom
+    Y 30
+    Margin 5%
+    W 40%
+    MinW 100
+  ConfirmButton: |
+    Origin Bottom
+    X 50%
+    Y 30
+    Margin 5%
+    W 40%
+    MinW 100
+  OutputText: |
+    Origin CenterX Bottom
+    ContentOrigin CenterX CenterY
+    ForegroundColor 255 255 255 255
+    BackgroundColor 0 0 0 128
+    Y 0
+    X 50%
+    W 100%
+# Character creation styles
+Creation:
+  Container: |
+    W 100%
+    H 100%
+  Characters: |
+    W 30%
+    H 100%
+    BackgroundColor 128 128 128 128
+  CharacterName: |
+    Origin CenterX CenterY
+    X 50%
+    Y 10%
+    H 20%
+    W 100%
+    MaxW 200
+    MaxH 30
+    MinH 25
+    ForegroundColor 255 0 0 255
+  CreateButton: |
+    Origin CenterX CenterY
+    X 50%
+    Y 30%
+    W 100%
+    MaxW 200
+  CharacterEntry_fmt: |
+    Origin CenterX CenterY
+    X 50%%
+    Y %d%%
+    W 100%%
+    MaxW 75%%
+# Game styles
+Game:
+  Container: |
+    W 100%
+    H 100%
+    BackgroundColor 139 186 139 0
+  Map: |
+    X 20%
+    Y 50%
+    W 80%
+    H 100%
+    BackgroundColor 0 0 0 255
+    Origin CenterY
+  Chat: |
+    X 60%
+    Y 0
+    W 50%
+    H 20%
+    Origin Bottom CenterX
+    BackgroundColor 0 0 0 0
+  Messages: |
+    Display Columns
+    Direction Reverse
+    Origin Bottom
+    Y 30
+    W 100%
+    H 100%
+    BackgroundColor 0 0 0 0
+  CommandContainer: |
+    W 100%
+    H 26
+    Origin Bottom
+    BackgroundColor 0 0 0 32
+  CommandType: |
+    W 10%
+    H 100%
+  ChatInput: |
+    X 10%
+    W 85%
+  Inventory: |
+    X 0
+    Y 0
+    W 20%
+    H 70%
+    BackgroundColor 0 128 0 128
+  Inspector: |
+    X 0
+    Y 50%
+    W 20%
+    H 30%
+    BackgroundColor 128 128 0 128
+  Ground: |
+    X 0
+    Y 70%
+    W 20%
+    H 30%
+    BackgroundColor 128 128 128 128
+  Stats: |
+    X 60%
+    Y 0
+    W 50%
+    H 20%
+    Origin CenterX
+    BackgroundColor 128 0 0 128
+  State: |
+    X 0
+    Y 20%
+    W 10%
+    H 40%
+    Origin Right
+    BackgroundColor 0 0 0 0
+  State__Status: |
+    ForegroundColor 200 200 200 255
+    OutlineColor 20 20 20 255
+    X 50%
+    Origin CenterX
+  Debug: |
+    X 20%
+    Y 0
+    W 80%
+    H 100%
+    BackgroundColor 0 0 0 0
+    ZIndex 1
+  FocusedImage: |
+    W 0
+    H 0
+    ZIndex 999999
+    OutlineColor 255 255 0 200
+  GenericMessage: |
+    ForegroundColor 200 200 200 255
+    OutlineColor 20 20 20 255
