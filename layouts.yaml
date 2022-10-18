@@ -19,4 +19,15 @@ Login:
 Register:
   - Tag: Container.Container
     Children:
+      - Tag: Container.InputsContainer
+        Children:
+          - Tag: Input.UsernameInput
+          - Tag: Text.UsernameResult
+          - Tag: Input.PasswordInput
+          - Tag: Input.PasswordConfirmInput
+          - Tag: Text.PasswordResult
+          - Tag: Input.EmailInput
+          - Tag: Text.EmailResult
+      - Tag: Button.BackButton
       - Tag: Button.ConfirmButton
+      - Tag: Text.OutputText
