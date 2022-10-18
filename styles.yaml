@@ -96,6 +96,7 @@ Login:
     Y 0
     X 50%
     W 100%
+    Padding 5
 # Register styles
 Register:
   Container: |
@@ -186,6 +187,7 @@ Register:
     Y 0
     X 50%
     W 100%
+    Padding 5
 # Character creation styles
 Creation:
   Container: |
