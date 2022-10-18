@@ -1,0 +1,7 @@
+Servers:
+  Container.List:
+    Image.SplashImage: {}
+    Text.ChooseServer: {}
+    Input.HostInput: {}
+    Button.ConnectButton: {}
+    Text.OutputText: {}
