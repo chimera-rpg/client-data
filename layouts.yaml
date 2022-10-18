@@ -1,7 +1,8 @@
 Servers:
-  Container.List:
-    Image.SplashImage: {}
-    Text.ChooseServer: {}
-    Input.HostInput: {}
-    Button.ConnectButton: {}
-    Text.OutputText: {}
+  - Tag: Container.List
+    Children:
+      - Tag: Image.SplashImage
+      - Tag: Text.ChooseServer
+      - Tag: Input.HostInput
+      - Tag: Button.ConnectButton
+      - Tag: Text.OutputText
