@@ -6,3 +6,17 @@ Servers:
       - Tag: Input.HostInput
       - Tag: Button.ConnectButton
       - Tag: Text.OutputText
+Login:
+  - Tag: Container.Container
+    Children:
+      - Tag: Input.UsernameInput
+      - Tag: Input.PasswordInput
+      - Tag: Button.RememberButton
+      - Tag: Button.DisconnectButton
+      - Tag: Button.RegisterButton
+      - Tag: Button.LoginButton
+      - Tag: Text.OutputText
+Register:
+  - Tag: Container.Container
+    Children:
+      - Tag: Button.ConfirmButton
