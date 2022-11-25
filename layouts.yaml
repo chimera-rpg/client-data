@@ -31,9 +31,20 @@ Register:
       - Tag: Button.BackButton
       - Tag: Button.ConfirmButton
       - Tag: Text.OutputText
-Creation:
+Selection:
   - Tag: Container.Container
     Children:
       - Tag: Container.Characters
       - Tag: Input.CharacterName
       - Tag: Button.CreateButton
+Creation:
+  - Tag: Container.Container
+    Children:
+      - Tag: Container.CharacterInfo
+        Children:
+          - Tag: Input.CharacterName
+          - Tag: Button.CreateButton
+          - Tag: Button.BackButton
+      - Tag: Container.Genera
+      - Tag: Container.Species
+      - Tag: Container.SelectedInfo

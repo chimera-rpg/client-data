@@ -188,8 +188,8 @@ Register:
     X 50%
     W 100%
     Padding 5
-# Character creation styles
-Creation:
+# Character selection styles
+Selection:
   Container: |
     W 100%
     H 100%
@@ -219,6 +219,40 @@ Creation:
     Y %d%%
     W 100%%
     MaxW 75%%
+# Character Creation styles
+Creation:
+  Container: |
+    W 100%
+    H 100%
+  CharacterInfo: |
+    H 100%
+    W 25%
+    BackgroundColor 128 128 128 128
+  CharacterName: |
+    Origin CenterX CenterY
+    X 50%
+    Y 10%
+    H 20%
+    W 100%
+    MaxW 200
+    MaxH 30
+    MinH 25
+    ForegroundColor 255 0 0 255
+  CreateButton: |
+    Origin CenterX CenterY
+    X 50%
+    Y 30%
+    W 100%
+    MaxW 200
+  BackButton: |
+    Origin CenterX Bottom
+    W 100%
+    MaxW 200
+    X 50%
+    Y 0
+  Genera: ""
+  Species: ""
+  SelectedInfo: ""
 # Game styles
 Game:
   Container: |
