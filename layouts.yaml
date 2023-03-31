@@ -12,9 +12,9 @@ Login:
       - Tag: Input.UsernameInput
       - Tag: Input.PasswordInput
       - Tag: Button.RememberButton
+      - Tag: Button.LoginButton
       - Tag: Button.DisconnectButton
       - Tag: Button.RegisterButton
-      - Tag: Button.LoginButton
       - Tag: Text.OutputText
 Register:
   - Tag: Container.Container
