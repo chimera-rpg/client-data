@@ -197,6 +197,7 @@ Selection:
     W 30%
     H 100%
     BackgroundColor 128 128 128 128
+    Display Columns
   CharacterName: |
     Origin CenterX CenterY
     X 50%
@@ -213,12 +214,12 @@ Selection:
     Y 30%
     W 100%
     MaxW 200
-  CharacterEntry_fmt: |
+  CharacterEntry: |
     Origin CenterX CenterY
-    X 50%%
-    Y %d%%
-    W 100%%
-    MaxW 75%%
+    X 50%
+    W 100%
+    Margin 1%
+    MaxW 75%
 # Character Creation styles
 Creation:
   Container: |
