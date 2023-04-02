@@ -43,8 +43,32 @@ Creation:
       - Tag: Container.CharacterInfo
         Children:
           - Tag: Input.CharacterName
+          - Tag: Input.Description
+          - Tag: Container.Results
+            Children:
+              - Tag: Text.Genus
+              - Tag: Text.Species
+              - Tag: Text.Culture
+              - Tag: Text.Training
+              - Tag: Text.Factions
+              - Tag: Text.Attributes
           - Tag: Button.CreateButton
           - Tag: Button.BackButton
-      - Tag: Container.Genera
-      - Tag: Container.Species
-      - Tag: Container.SelectedInfo
+      - Tag: Container.Options
+        Children:
+          - Tag: Container.Genera
+            Children:
+              - Tag: Container.Genera__List
+              - Tag: Container.Genera__Info
+          - Tag: Container.Species
+            Children:
+              - Tag: Container.Species__List
+              - Tag: Container.Species__Info
+          - Tag: Container.Cultures
+            Children:
+              - Tag: Container.Cultures__List
+              - Tag: Container.Cultures__Info
+          - Tag: Container.Trainings
+            Children:
+              - Tag: Container.Trainings__List
+              - Tag: Container.Trainings__Info

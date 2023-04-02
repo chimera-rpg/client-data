@@ -251,8 +251,70 @@ Creation:
     MaxW 200
     X 50%
     Y 0
-  Genera: ""
-  Species: ""
+  Options: |
+    X 25%
+    W 75%
+    H 100%
+    BackgroundColor 0 255 0 64
+  Genera: |
+    H 25%
+    W 100%
+    BackgroundColor 255 0 0 64
+  Genera__List: |
+    Display Rows
+    H 100%
+    W 70%
+    BackgroundColor 255 255 0 64
+  Genera__Info: |
+    X 70%
+    W 30%
+    H 100%
+    BackgroundColor 255 255 255 64
+  Species: |
+    Y 25%
+    H 25%
+    W 100%
+    BackgroundColor 0 255 0 64
+  Species__List: |
+    Display Rows
+    H 100%
+    W 70%
+    BackgroundColor 255 255 0 64
+  Species__Info: |
+    X 70%
+    W 30%
+    H 100%
+    BackgroundColor 255 255 255 64
+  Cultures: |
+    Y 50%
+    H 25%
+    W 100%
+    BackgroundColor 0 0 255 64
+  Cultures__List: |
+    Display Rows
+    H 100%
+    W 70%
+    BackgroundColor 255 255 0 64
+  Cultures__Info: |
+    X 70%
+    W 30%
+    H 100%
+    BackgroundColor 255 255 255 64
+  Trainings: |
+    Y 75%
+    H 25%
+    W 100%
+    BackgroundColor 255 0 255 64
+  Trainings__List: |
+    Display Rows
+    H 100%
+    W 70%
+    BackgroundColor 255 255 0 64
+  Trainings__Info: |
+    X 70%
+    W 30%
+    H 100%
+    BackgroundColor 255 255 255 64
   SelectedInfo: ""
 # Game styles
 Game:
