@@ -225,10 +225,11 @@ Creation:
   Container: |
     W 100%
     H 100%
+    BackgroundColor 7 14 7 255
   CharacterInfo: |
     H 100%
     W 25%
-    BackgroundColor 128 128 128 128
+    BackgroundColor 20 20 20 32
   CharacterName: |
     Origin CenterX CenterY
     X 50%
@@ -255,66 +256,117 @@ Creation:
     X 25%
     W 75%
     H 100%
-    BackgroundColor 0 255 0 64
   Genera: |
     H 25%
     W 100%
-    BackgroundColor 255 0 0 64
   Genera__List: |
     Display Rows
     H 100%
-    W 70%
-    BackgroundColor 255 255 0 64
+    W 60%
+    BackgroundColor 7 14 7 255
   Genera__Info: |
-    X 70%
-    W 30%
+    X 60%
+    W 40%
     H 100%
-    BackgroundColor 255 255 255 64
+    BackgroundColor 7 14 7 255
   Species: |
     Y 25%
     H 25%
     W 100%
-    BackgroundColor 0 255 0 64
   Species__List: |
     Display Rows
     H 100%
-    W 70%
-    BackgroundColor 255 255 0 64
+    W 60%
+    BackgroundColor 14 21 14 255
   Species__Info: |
-    X 70%
-    W 30%
+    X 60%
+    W 40%
     H 100%
-    BackgroundColor 255 255 255 64
+    BackgroundColor 14 21 14 255
   Cultures: |
     Y 50%
     H 25%
     W 100%
-    BackgroundColor 0 0 255 64
   Cultures__List: |
     Display Rows
     H 100%
-    W 70%
-    BackgroundColor 255 255 0 64
+    W 60%
+    BackgroundColor 21 28 21 255
   Cultures__Info: |
-    X 70%
-    W 30%
+    X 60%
+    W 40%
     H 100%
-    BackgroundColor 255 255 255 64
+    BackgroundColor 21 28 21 255
   Trainings: |
     Y 75%
     H 25%
     W 100%
-    BackgroundColor 255 0 255 64
   Trainings__List: |
     Display Rows
     H 100%
-    W 70%
-    BackgroundColor 255 255 0 64
+    W 60%
+    BackgroundColor 28 35 28 255
   Trainings__Info: |
-    X 70%
-    W 30%
+    X 60%
+    W 40%
     H 100%
-    BackgroundColor 255 255 255 64
+    BackgroundColor 28 35 28 255
+  EntrySelection: |
+    W 15%
+    H 100%
+    BackgroundColor 255 255 255 8
+    Display Columns
+  EntrySelection--selected: |
+    W 15%
+    H 100%
+    BackgroundColor 255 255 255 32
+    Display Columns
+  EntrySelection__name: |
+    X 50%
+    Origin CenterX
+    MarginTop 5%
+    OutlineColor 255 255 255 255
+    ForegroundColor 0 0 0 255
+  EntrySelection__image: |
+    MarginTop 10%
+    X 50%
+    Origin CenterX
+    MarginBottom 5%
+    Resize ToContent
+    Scale 300%
+    W 16
+    H 16
+    OutlineColor 255 255 255 128
+  EntryInfo: |
+    W 100%
+    H 100%
+    BackgroundColor 0 0 0 32
+    Display Columns
+    BackgroundColor 0 0 0 0
+  EntryInfo__attributes: |
+    W 100%
+    H 50%
+    BackgroundColor 0 0 0 0
+  EntryInfo__physical: |
+    W 33%
+    ForegroundColor 255 64 64 255
+    BackgroundColor 0 0 0 0
+  EntryInfo__arcane: |
+    W 33%
+    X 33%
+    ForegroundColor 64 128 255 255
+    BackgroundColor 0 0 0 0
+  EntryInfo__spirit: |
+    W 33%
+    X 66%
+    ForegroundColor 255 255 64 255
+    BackgroundColor 0 0 0 0
+  EntryInfo__description: |
+    W 100%
+    H 50%
+    Wrap Wrap
+    ForegroundColor 255 255 255 255
+    OutlineColor 0 0 0 8
   SelectedInfo: ""
 # Game styles
 Game:
