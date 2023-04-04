@@ -64,11 +64,19 @@ Creation:
             Children:
               - Tag: Container.Species__List
               - Tag: Container.Species__Info
-          - Tag: Container.Cultures
+          - Tag: Container.Variety
             Children:
-              - Tag: Container.Cultures__List
-              - Tag: Container.Cultures__Info
-          - Tag: Container.Trainings
-            Children:
-              - Tag: Container.Trainings__List
-              - Tag: Container.Trainings__Info
+              - Tag: Container.Variety__List
+              - Tag: Container.Variety__Info
+#          - Tag: Container.Cultures
+#            Children:
+#              - Tag: Container.Cultures__List
+#              - Tag: Container.Cultures__Info
+#          - Tag: Container.Lineages
+#            Children:
+#              - Tag: Container.Lineages__List
+#              - Tag: Container.Lineages__Info
+#          - Tag: Container.Trainings
+#            Children:
+#              - Tag: Container.Trainings__List
+#              - Tag: Container.Trainings__Info

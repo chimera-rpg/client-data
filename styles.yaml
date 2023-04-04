@@ -257,7 +257,7 @@ Creation:
     W 75%
     H 100%
   Genera: |
-    H 25%
+    H 33.33%
     W 100%
   Genera__List: |
     Display Rows
@@ -270,8 +270,8 @@ Creation:
     H 100%
     BackgroundColor 7 14 7 255
   Species: |
-    Y 25%
-    H 25%
+    Y 33.33%
+    H 33.33%
     W 100%
   Species__List: |
     Display Rows
@@ -283,23 +283,52 @@ Creation:
     W 40%
     H 100%
     BackgroundColor 14 21 14 255
+  Variety: |
+    Y 66.66%
+    H 33.33%
+    W 100%
+  Variety__List: |
+    Display Rows
+    H 100%
+    W 60%
+    BackgroundColor 21 28 21 255
+  Variety__Info: |
+    X 60%
+    W 40%
+    H 100%
+    BackgroundColor 21 28 21 255
+# Nurture
   Cultures: |
     Y 50%
-    H 25%
+    H 33.33%
     W 100%
   Cultures__List: |
     Display Rows
     H 100%
     W 60%
-    BackgroundColor 21 28 21 255
+    BackgroundColor 7 14 7 255
   Cultures__Info: |
     X 60%
     W 40%
     H 100%
-    BackgroundColor 21 28 21 255
+    BackgroundColor 7 14 7 255
+  Lineages: |
+    Y 33.33%
+    H 33.33%
+    W 100%
+  Lineages__List: |
+    Display Rows
+    H 100%
+    W 60%
+    BackgroundColor 14 21 14 255
+  Lineages__Info: |
+    X 60%
+    W 40%
+    H 100%
+    BackgroundColor 14 21 14 255
   Trainings: |
-    Y 75%
-    H 25%
+    Y 66.66%
+    H 33.33%
     W 100%
   Trainings__List: |
     Display Rows
