@@ -256,6 +256,27 @@ Creation:
     X 25%
     W 75%
     H 100%
+  Options__Tabs: |
+    Display Rows
+    W 100%
+    H 10%
+    BackgroundColor 0 0 0 255
+  Nature__Tab: |
+    W 50%
+    H 100%
+    MaxH 0
+  Nurture__Tab: |
+    W 50%
+    H 100%
+    MaxH 0
+  Nature__Content: |
+    Y 10%
+    W 100%
+    H 90%
+  Nurture__Content: |
+    Y 10%
+    W 100%
+    H 90%
   Genera: |
     H 33.33%
     W 100%
@@ -299,7 +320,6 @@ Creation:
     BackgroundColor 21 28 21 255
 # Nurture
   Cultures: |
-    Y 50%
     H 33.33%
     W 100%
   Cultures__List: |

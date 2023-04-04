@@ -56,27 +56,35 @@ Creation:
           - Tag: Button.BackButton
       - Tag: Container.Options
         Children:
-          - Tag: Container.Genera
+          - Tag: Container.Options__Tabs
             Children:
-              - Tag: Container.Genera__List
-              - Tag: Container.Genera__Info
-          - Tag: Container.Species
+              - Tag: Button.Nature__Tab
+              - Tag: Button.Nurture__Tab
+          - Tag: Container.Nature__Content
             Children:
-              - Tag: Container.Species__List
-              - Tag: Container.Species__Info
-          - Tag: Container.Variety
+              - Tag: Container.Genera
+                Children:
+                  - Tag: Container.Genera__List
+                  - Tag: Container.Genera__Info
+              - Tag: Container.Species
+                Children:
+                  - Tag: Container.Species__List
+                  - Tag: Container.Species__Info
+              - Tag: Container.Variety
+                Children:
+                  - Tag: Container.Variety__List
+                  - Tag: Container.Variety__Info
+          - Tag: Container.Nurture__Content
             Children:
-              - Tag: Container.Variety__List
-              - Tag: Container.Variety__Info
-#          - Tag: Container.Cultures
-#            Children:
-#              - Tag: Container.Cultures__List
-#              - Tag: Container.Cultures__Info
-#          - Tag: Container.Lineages
-#            Children:
-#              - Tag: Container.Lineages__List
-#              - Tag: Container.Lineages__Info
-#          - Tag: Container.Trainings
-#            Children:
-#              - Tag: Container.Trainings__List
-#              - Tag: Container.Trainings__Info
+              - Tag: Container.Cultures
+                Children:
+                  - Tag: Container.Cultures__List
+                  - Tag: Container.Cultures__Info
+              - Tag: Container.Lineages
+                Children:
+                  - Tag: Container.Lineages__List
+                  - Tag: Container.Lineages__Info
+              - Tag: Container.Trainings
+                Children:
+                  - Tag: Container.Trainings__List
+                  - Tag: Container.Trainings__Info
