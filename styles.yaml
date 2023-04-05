@@ -392,23 +392,53 @@ Creation:
     BackgroundColor 0 0 0 32
     Display Columns
     BackgroundColor 0 0 0 0
+  EntryInfo__attribute__good: |
+    ForegroundColor 0 255 0 255
+  EntryInfo__attribute__bad: |
+    ForegroundColor 255 0 0 255
   EntryInfo__attributes: |
     W 100%
     H 50%
     BackgroundColor 0 0 0 0
+    Display Rows
   EntryInfo__physical: |
     W 33%
+    H 100%
+    BackgroundColor 255 0 0 0
+    Display Columns
+  EntryInfo__physical__title: |
     ForegroundColor 255 64 64 255
+    OutlineColor 255 200 200 200
+  EntryInfo__physical__attributes: |
+    Display Columns
+    W 100%
+    H 100%
     BackgroundColor 0 0 0 0
   EntryInfo__arcane: |
     W 33%
-    X 33%
+    H 100%
+    BackgroundColor 0 0 255 0
+    Display Columns
+  EntryInfo__arcane__title: |
     ForegroundColor 64 128 255 255
+    OutlineColor 200 200 255 200
+  EntryInfo__arcane__attributes: |
+    Display Columns
+    W 100%
+    H 100%
     BackgroundColor 0 0 0 0
   EntryInfo__spirit: |
     W 33%
-    X 66%
+    H 100%
+    BackgroundColor 0 255 0 0
+    Display Columns
+  EntryInfo__spirit__title: |
     ForegroundColor 255 255 64 255
+    OutlineColor 255 255 200 200
+  EntryInfo__spirit__attributes: |
+    Display Columns
+    W 100%
+    H 100%
     BackgroundColor 0 0 0 0
   EntryInfo__description: |
     W 100%
