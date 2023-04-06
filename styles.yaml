@@ -259,7 +259,8 @@ Creation:
   Options__Tabs: |
     Display Rows
     W 100%
-    H 10%
+    H 5%
+    MinH 0
     BackgroundColor 0 0 0 255
   Nature__Tab: |
     W 50%
@@ -270,13 +271,13 @@ Creation:
     H 100%
     MaxH 0
   Nature__Content: |
-    Y 10%
+    Y 5%
     W 100%
-    H 90%
+    H 95%
   Nurture__Content: |
-    Y 10%
+    Y 5%
     W 100%
-    H 90%
+    H 95%
   Genera: |
     H 33.33%
     W 100%
@@ -399,6 +400,7 @@ Creation:
   EntryInfo__attributes: |
     W 100%
     H 50%
+    MinH 60
     BackgroundColor 0 0 0 0
     Display Rows
   EntryInfo__physical: |
