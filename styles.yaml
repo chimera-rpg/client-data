@@ -404,7 +404,7 @@ Creation:
     BackgroundColor 0 0 0 0
     Display Rows
   EntryInfo__physical: |
-    W 33%
+    W 33.33%
     H 100%
     BackgroundColor 255 0 0 0
     Display Columns
@@ -416,8 +416,9 @@ Creation:
     W 100%
     H 100%
     BackgroundColor 0 0 0 0
+    Overflow Y
   EntryInfo__arcane: |
-    W 33%
+    W 33.33%
     H 100%
     BackgroundColor 0 0 255 0
     Display Columns
@@ -429,8 +430,9 @@ Creation:
     W 100%
     H 100%
     BackgroundColor 0 0 0 0
+    Overflow Y
   EntryInfo__spirit: |
-    W 33%
+    W 33.33%
     H 100%
     BackgroundColor 0 255 0 0
     Display Columns
@@ -442,12 +444,17 @@ Creation:
     W 100%
     H 100%
     BackgroundColor 0 0 0 0
+    Overflow Y
   EntryInfo__description: |
     W 100%
     H 50%
+    Overflow Y
+    BackgroundColor 0 0 0 0
+  EntryInfo__description__text: |
+    W 100%
+    H 100%
     Wrap Wrap
     ForegroundColor 255 255 255 255
-    OutlineColor 0 0 0 8
   SelectedInfo: ""
 # Game styles
 Game:
