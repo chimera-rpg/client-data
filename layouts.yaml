@@ -48,6 +48,7 @@ Creation:
             Children:
               - Tag: Text.Genus
               - Tag: Text.Species
+              - Tag: Text.Variety
               - Tag: Text.Culture
               - Tag: Text.Training
               - Tag: Text.Factions
