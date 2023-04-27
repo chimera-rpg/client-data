@@ -199,13 +199,23 @@ Selection:
     BackgroundColor 128 128 128 128
     Display Columns
   CharacterName: |
-    Origin CenterX CenterY
+    Origin CenterX
     X 50%
     Y 10%
     H 20%
     W 100%
     MaxW 200
     MaxH 30
+    MinH 25
+    ForegroundColor 255 0 0 255
+  CharacterDescription: |
+    Origin CenterX
+    X 50%
+    Y 20%
+    H 20%
+    W 100%
+    MaxW 200
+    MaxH 60
     MinH 25
     ForegroundColor 255 0 0 255
   CreateButton: |
@@ -240,10 +250,43 @@ Creation:
     MaxH 30
     MinH 25
     ForegroundColor 255 0 0 255
+  CharacterImage: |
+    MarginTop 10%
+    Y 30%
+    X 50%
+    Origin CenterX
+    MarginBottom 5%
+    Resize ToContent
+    Scale 300%
+    W 16
+    H 16
+    OutlineColor 255 255 255 128
+  Results: |
+    Y 30%
+    W 100%
+    H 100%
+    MinH 60
+    BackgroundColor 0 0 0 0
+  Results__Attributes: |
+    W 100%
+    H 100%
+    MinH 60
+    MaxH 300
+    BackgroundColor 0 0 0 0
+    Display Rows
+  Results__Attributes__Physical__Title: |
+    ForegroundColor 255 64 64 255
+    OutlineColor 255 200 200 200
+  Results__Attributes__Arcane__Title: |
+    ForegroundColor 64 128 255 255
+    OutlineColor 200 200 255 200
+  Results__Attributes__Spirit__Title: |
+    ForegroundColor 255 255 64 255
+    OutlineColor 255 255 200 200
   CreateButton: |
     Origin CenterX CenterY
     X 50%
-    Y 30%
+    Y 60%
     W 100%
     MaxW 200
   BackButton: |

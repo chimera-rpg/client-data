@@ -43,16 +43,24 @@ Creation:
       - Tag: Container.CharacterInfo
         Children:
           - Tag: Input.CharacterName
-          - Tag: Input.Description
+          - Tag: Input.CharacterDescription
+          - Tag: Image.CharacterImage
           - Tag: Container.Results
             Children:
-              - Tag: Text.Genus
-              - Tag: Text.Species
-              - Tag: Text.Variety
-              - Tag: Text.Culture
-              - Tag: Text.Training
-              - Tag: Text.Factions
-              - Tag: Text.Attributes
+              - Tag: Container.Results__Attributes
+                Children:
+                  - Tag: Container.Results__Attributes__Physical
+                    Children:
+                      - Tag: Text.Results__Attributes__Physical__Title
+                      - Tag: Container.Results__Attributes__Physical__Attributes
+                  - Tag: Container.Results__Attributes__Arcane
+                    Children:
+                      - Tag: Text.Results__Attributes__Arcane__Title
+                      - Tag: Container.Results__Attributes__Arcane__Attributes
+                  - Tag: Container.Results__Attributes__Spirit
+                    Children:
+                      - Tag: Text.Results__Attributes__Spirit__Title
+                      - Tag: Container.Results__Attributes__Spirit__Attributes
           - Tag: Button.CreateButton
           - Tag: Button.BackButton
       - Tag: Container.Options
